@@ -59,5 +59,11 @@ button:hover {
 }
 
 .kitty {
-    animation: flores 2s infinite;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Bordes redondeados opcionales */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra ligera */
 }
+
