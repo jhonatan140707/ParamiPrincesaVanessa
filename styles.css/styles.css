@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background-color: #ffe4e1;
+    color: #d63384;
+}
+
+header {
+    background: #ffb6c1;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.animated-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: latidos 1.5s infinite;
+}
+
+.kitty {
+    width: 150px;
+    margin: 20px;
+}
+
+.dedicatoria {
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #ff69b4;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    background: #ff1493;
+}
+
+@keyframes latidos {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@keyframes flores {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.kitty {
+    animation: flores 2s infinite;
+}
